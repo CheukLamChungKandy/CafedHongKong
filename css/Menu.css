@@ -1,0 +1,44 @@
+/* -------- Menu Showcase close  ---------*/
+#menu_showcase{
+    background: url('../images/menu_show_1.JPG') no-repeat center center/cover;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+#menu_showcase::before{
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -11;
+}
+
+#menu_showcase .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#menu_showcase .content h2{
+    font-size: 7rem;
+    font-family: var(--righteous);
+    color: var(--white_color);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#menu_showcase .content h3{
+    font-size: 2rem;
+    font-family: var(--poppins);
+    color: var(--white_color);
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin: 50px;
+}

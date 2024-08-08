@@ -1,0 +1,162 @@
+/* large screen size 868px */
+@media(max-width: 1250px){
+    #intro{
+        height: 100%;
+        transition: all 0.5s ease-in-out;
+    }
+    #intro .intro_heading{
+        padding: 2rem 0rem;
+        font-size: 4rem;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #intro p {  
+        padding: 0rem 2rem;
+        font-size: 2rem;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+@media(max-width: 1026px){
+    html{
+        font-size:60%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .container{
+        padding: 0 60px;
+    }
+
+    #menu .cards img{
+        width: 40%;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+@media(max-width: 750px) {
+    html{
+        font-size: 50%;
+    }
+
+    .container{
+        padding: 0 50px;
+    }
+
+    #intro .container img{
+        width: 40%;
+    }
+
+    #menu .cards img{
+        width: 180px;
+    }
+
+    #contact_info .container {
+        flex-direction: column;
+    }
+
+    #contact_info .map, .content {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 683px) {
+    html{
+        font-size: 30%;
+    }
+
+    .btn{
+        display: block;
+        font-size: 5rem;
+    }
+
+    .logo img{
+        margin-left: auto;
+        margin-right: auto;
+        
+        width: 30%;
+    }
+
+    .navbar {
+        margin: 2rem 0rem 2rem 0rem;
+    }
+    
+    .navbar nav {
+        flex-direction: column;
+        position: fixed;
+        min-width: 30%;
+        min-height: 100%;
+        top: 0%;
+        right: 100%;
+        background-color: black;      
+        align-items: flex-start;
+        justify-content: center;
+        transition: all 1s ease-in-out;
+    }
+
+    nav.active{
+        right: 70%;
+        transition: all 1s ease-in-out;
+    }
+
+    .navbar nav li{
+        margin: 2rem 4rem;
+    }
+
+    .navbar nav li a {
+        font-size: 3rem;
+        color: var(--white_color);
+        position: relative;
+    }
+
+    .close-btn{
+        position: absolute;
+        top: 70%;
+        left: 0%;
+        margin: 25px;
+    }
+
+    #menu .cards img{
+        width: 150px;
+    }
+}
+
+@media(max-width: 468px) {
+    html{
+        font-size: 27%;
+    }
+
+    #menu .cards img{
+        width: 70px;
+    }
+}
+
+@media(max-width: 376px) {
+    html{
+        font-size: 25%;
+    }
+
+    #menu .cards img{
+        width: 60px;
+    }
+}
+
+@media(max-width: 310px) {
+    html{
+        font-size: 20%;
+    }
+
+    #menu .cards img{
+        width: 60px;
+    }
+}
+
+@media(max-width: 240px) {
+    html{
+        font-size: 13%;
+    }
+
+    #menu .cards img{
+        width: 60px;
+    }
+}
