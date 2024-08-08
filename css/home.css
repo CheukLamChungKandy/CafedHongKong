@@ -1,0 +1,143 @@
+/* -------- Showcase close  ---------*/
+#showcase{
+    background: url('../images/showcase_background.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    position: relative;
+    z-index: -10;
+}
+
+#showcase::before{
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -11;
+}
+
+#showcase .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#showcase .content h2{
+    font-size: 7rem;
+    font-family: var(--righteous);
+    color: var(--white_color);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#showcase .content h3{
+    font-size: 3rem;
+    font-family: var(--righteous);
+    color: var(--white_color);
+    text-align: center;
+    letter-spacing: 2px;
+}
+/* -------- Showcase close  ---------*/
+
+
+
+
+
+/* -------- Intro start  ---------*/
+#intro{
+    padding: 10rem 0;
+    height: 500px;
+}
+
+#intro .container{
+    font-family: var(--righteous);
+    text-align: center;
+}
+
+#intro .container img{
+    margin-top: 2rem;
+    width: 30%;
+}
+
+#intro .intro_heading{
+    padding: 2rem 10rem;
+    font-size: 4rem;
+    font-weight: 200;
+    font-family: var(--ubuntu);
+    color: black;
+    letter-spacing: 1.5px;
+}
+
+#intro p {
+    padding: 0rem 30rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: var(--poppins);
+    color: black;
+    margin-top: 3rem;
+}
+
+/* -------- Intro close  ---------*/
+
+
+
+
+
+/* -------- Menu review start  ---------*/
+#menu{
+    padding: 10rem 0;
+    background: url('../images/menu_review_background.jpeg.png') no-repeat center center/cover;
+}
+
+#menu .card_content{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 6rem 0;
+}
+
+#menu .cards{
+    margin: 1rem 0rem;
+}
+
+#menu .cards img{
+    width: 300px;
+    box-shadow: var(--box-shadow);
+}
+
+#menu .card_content h4{
+    font-family: var(--poppins);
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+#menu .card_content .price{
+    font-size: 2rem;
+    color: var(--theme_red_color);
+    font-weight: 600;
+}
+
+.view_menu_button{
+    text-align: center;
+}
+
+.view_menu_button a{
+    background-color: var(--theme_red_color);
+    border: var(--theme_red_color) solid 1px ;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.view_menu_button a:hover{
+    border: var(--theme_red_color) solid 1px ;
+    background-color: var(--white_color);
+    color: var(--theme_red_color);
+}
+
+/* -------- Menu review close  ---------*/
