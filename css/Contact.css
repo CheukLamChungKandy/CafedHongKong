@@ -24,7 +24,7 @@
     min-height: 100vh;
 }
 
-#contact_showcase .content h2{
+#contact_showcase .content h1{
     font-size: 7rem;
     font-family: var(--righteous);
     color: var(--white_color);

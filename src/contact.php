@@ -2,7 +2,7 @@
 <main id="contact_showcase">
     <div class="container">
         <div class="content">
-            <h2>Contact Us</h2>
+            <h1>Contact Us</h1>
             <h3>QV Shop 29, 210 Lonsdale St, Melbourne VIC 3000</h3>
         </div>
     </div>

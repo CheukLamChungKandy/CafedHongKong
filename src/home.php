@@ -2,7 +2,7 @@
 <main id="showcase">
     <div class="container">
         <div class="content">
-            <h2>Cafe d' Hong Kong</h2>
+            <h1>Cafe d' Hong Kong</h1>
             <h3>Hong Kong style restaurant</h3>
         </div>
     </div>
@@ -12,8 +12,8 @@
 <!------ Intro start ------>
 <div id="intro">
     <div class="container">
-        <h3 class="intro_heading">Your Taste of Hong Kong in Melbourne</h3>
-        <p>Experience the vibrant and diverse flavors of Hong Kong without leaving Melbourne! Our restaurant brings you the essence of Hong Kong's culinary scene, blending traditional recipes with a modern twist to create a unique and unforgettable dining experience.</p>
+        <h1>Your Taste of Hong Kong in Melbourne</h1>
+        <h3>Experience the vibrant and diverse flavors of Hong Kong without leaving Melbourne! Our restaurant brings you the essence of Hong Kong's culinary scene, blending traditional recipes with a modern twist to create a unique and unforgettable dining experience.</h3>
         <img src="images/intro_top.png" alt="">
     </div>
 </div>

@@ -25,7 +25,7 @@
     min-height: 100vh;
 }
 
-#showcase .content h2{
+#showcase .content h1{
     font-size: 7rem;
     font-family: var(--righteous);
     color: var(--white_color);
@@ -62,7 +62,7 @@
     width: 30%;
 }
 
-#intro .intro_heading{
+#intro h1{
     padding: 2rem 10rem;
     font-size: 4rem;
     font-weight: 200;
@@ -71,7 +71,7 @@
     letter-spacing: 1.5px;
 }
 
-#intro p {
+#intro h3{
     padding: 0rem 30rem;
     font-size: 1.5rem;
     font-weight: 100;
