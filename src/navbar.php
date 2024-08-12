@@ -5,15 +5,15 @@
                 <i class="fas fa-bars menu-btn"></i>
             </div>
             <div class="logo">
-                <a href="index.php?page=home"><img src="images/CafedHongKongLogo.jpeg" alt="logo"></a>
+                <a href="/home"><img src="images/CafedHongKongLogo.jpeg" alt="logo"></a>
             </div>
             <nav>
                 <div class="btn">
                     <i class="fas fa-times close-btn"></i>
                 </div>
-                <li><a href="index.php?page=home">Home</a></li>
-                <li><a href="index.php?page=menu">Menu</a></li>
-                <li><a href="index.php?page=contact">Contact</a></li>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/menu">Menu</a></li>
+                <li><a href="/contact">Contact</a></li>
             </nav>
             <div class="btn" style="visibility: hidden;">
                 <i class="fas fa-bars menu-btn"></i>

@@ -24,7 +24,7 @@
             default:
                 include 'src/home.php'; // Fallback to home if page not found
                 break;
-        }
+            }
         ?>
         <!------ Showcase start ------>
         
