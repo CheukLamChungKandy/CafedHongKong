@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Comatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The best Hong Kong style restaurant in Melbourne CBD. Our dishes have western and eastern style. We have many choices for beverages. Cheap eat in Melbourne CBD.">
-    <title>Cafe d' Hong Kong - Hong Kong style restaurant in Melbourne CBD</title>
+    <meta name="description" content="Cafe d'Hong Kong 龍城冰室 is the Hong Kong style restaurant located in Melbourne CBD. 
+    We serve a mix of Western and Eastern dishes, with a wide selection of beverages to choose from. Enjoy affordable meals right in the heart of Melbourne CBD.">
+    <title>Cafe d'Hong Kong 龍城冰室 | Hong Kong style restaurant in Melbourne CBD</title>
     <link rel="icon" href="images/title_logo.jpg" type="image/jpg">
     <link 
         rel="stylesheet" 
