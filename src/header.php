@@ -23,4 +23,23 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/responsive.css">
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Cafe d'Hong Kong",
+            "description": "Hong Kong style restaurant in Melbourne QV",
+            "image": "https://cafedhongkong.com.au/CafedHongKong/images/menu_show_3.JPG",
+            "url": "https://cafedhongkong.com.au",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Cafe d'Hong Kong",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "https://cafedhongkong.com.au/CafedHongKong/images/menu_show_3.JPG"
+                }
+            }
+        }
+    </script>
 </head>
